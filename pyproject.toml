@@ -9,6 +9,12 @@ packages = [{include = "api_courses"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 toml = "^0.10.2"
+flask = "^2.3.2"
+django = "^4.2.1"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+graphene-django = "^3.1.1"
+strawberry-graphql = "^0.178.0"
 
 
 [build-system]
